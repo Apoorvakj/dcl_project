@@ -1,0 +1,186 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+.container {
+
+    .navbar {
+        display: flex;
+        justify-content: space-around;
+        height: 40px;
+        align-items: center;
+
+
+        border-bottom: 1px solid rgb(244, 240, 240);
+        background-color: rgb(253, 255, 255);
+        border-style: ridge;
+
+        .elements {
+            display: flex;
+            gap: 20px;
+            justify-content: space-between;
+
+
+
+            a {
+                text-decoration: none;
+                font-size: 18px;
+                color: black;
+
+
+            }
+        }
+
+        .logo {
+            display: flex;
+            gap: 20px;
+            font-size: 20px;
+
+        }
+    }
+
+    .abc {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+
+        .title {
+            display: flex;
+            color: rgb(32, 69, 125);
+            align-items: center;
+            height: 100px;
+
+            .logo {
+                display: flex;
+                gap: 20px;
+                font-size: 70px;
+
+            }
+
+            .h1 {
+                font-size: 29px;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+            }
+        }
+
+        .subnavbar {
+            border-bottom: 1px solid black;
+            display: flex;
+            width: 82%;
+            justify-content: center;
+            gap: 30px;
+            height: 40px;
+
+            a {
+                text-decoration: none;
+                font-size: 18px;
+                color: black;
+                font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                font-weight: bold;
+
+
+
+            }
+
+        }
+
+        .cards {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+
+
+            .card {
+                border: 2px solid white;
+                display: flex;
+                gap: 10px;
+                width: fit-content;
+                flex-direction: column;
+                width: 400px;
+                border-style: ridge;
+                border-radius: 9px;
+
+                .img {
+                    img {
+                        height: 250px;
+                        width: 100%;
+                    }
+
+                }
+
+                h1 {
+                    font-size: 20px;
+                    color: rgb(21, 81, 159);
+                    font-weight: bolder;
+                    font-family: Georgia, 'Times New Roman', Times, serif;
+                    padding: 0px 10px;
+                }
+
+                .p1 {
+                    font-family: 'Times New Roman', Times, serif;
+                    padding: 10px;
+                    color: rgb(129, 131, 132);
+                }
+
+                .p2 {
+                    border-top: 1px solid rgb(235, 105, 198);
+                    text-align: center;
+                    padding: 3px 0px;
+                }
+
+            }
+        }
+    }
+
+    .g {
+          background-color: rgb(15, 15, 66);
+        
+        .footer {
+            padding: 10px 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+            
+            border-bottom: 1px solid white;
+            
+            width: 100%;
+
+
+
+
+        }
+
+        .d {
+           
+            color: white;
+           
+
+
+            h3 {
+                gap: 20px;
+                text-align: center;
+                font: 20px sans-serif;
+                padding: 10px 0px;
+
+            }
+
+            .logos {
+                display: flex;
+                gap: 30px;
+                font-size: 30px;
+                justify-content: center;
+                padding: 10px 0px 20px 0px;
+
+
+            }
+
+
+        }
+ 
+    }
+}
